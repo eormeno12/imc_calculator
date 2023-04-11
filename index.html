@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <section id="calculator-container">
+        <h1>IMC - CALCULATOR</h1>
+        <form id="input-form" class="calculator-input-form">
+            <div class="input-container">
+                <label for="height">Height:</label>
+                <input type="number" id="height" name="height">
+            </div>
+            <div class="input-container">
+                <label for="weight">Weight:</label>
+                <input type="number" id="weight" name="weight">
+            </div>
+        </form>
+        <button id="calc_button">Calculate</button>
+
+        <div class="calculator-output-container">
+            <p id="calculator-output"></p>
+            <p id="calculator-output-detail"></p>
+        </div>
+    </section>
+</body>
+</html>
